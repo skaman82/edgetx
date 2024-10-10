@@ -1897,7 +1897,7 @@
 #elif defined(RADIO_POCKET)
   #define ADC_DIRECTION {-1, 1, 1, -1, -1}
 #elif defined(RADIO_TPRO) || defined(RADIO_TPROV2) || defined(RADIO_TPROS)
-  #define ADC_DIRECTION {1,-1,1,-1,  1,1,  1,  1}
+  #define ADC_DIRECTION {-1,1,-1,1,  1,1,  1,  1} // ORIGINAL:  ADC_DIRECTION {1,-1,1,-1,  1,1,  1,  1}
 #elif defined(RADIO_T14)
   #define ADC_DIRECTION {1, -1, 1, -1,  1, 1, 1}
 #elif defined(RADIO_T12MAX)
